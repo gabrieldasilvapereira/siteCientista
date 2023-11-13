@@ -1,0 +1,38 @@
+
+
+
+
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: aqua;
+}
+
+nav>p{
+    background-color: blanchedalmond;
+    width: 50px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+nav > p:hover{
+    background-color: brown;
+}
+
+
+div > img.imagem1{
+    width: 300px;
+    
+}
+
+div.imagem1{
+    margin: auto;
+}
+
+div > img.imagem2{
+    width: 300px;
+}
