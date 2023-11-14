@@ -1,0 +1,59 @@
+.steam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body {
+  background-image: linear-gradient(90deg,rgb(47, 210, 221),rgb(211, 202, 202),rgb(41, 107, 198));
+}
+
+.containerS {
+   display: flex;
+   flex-direction: row;
+ justify-content: space-evenly;
+}
+.filmes {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  text-align: center;
+  flex-wrap: wrap;;
+  
+}
+.containerSSS {
+  display: flex;
+  flex-direction: row;
+justify-content: space-evenly;
+}
+.containerA {
+  display: flex;
+   flex-direction: row;
+ justify-content: space-evenly;
+}
+.jogos {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.series {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.containerB {
+  display: flex;
+  flex-direction: row;
+justify-content: space-evenly;
+}
