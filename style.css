@@ -5,7 +5,7 @@
 
 
 main{
-    background-color: rgba(255, 255, 255, 0.689);
+    background-color: rgba(255, 255, 255, 0.835);
     width: 1300px;
    margin: auto;
     border-radius: 10px;
@@ -69,6 +69,8 @@ div > img.imagem2{
     margin-right: auto;
 }
 
+
+
 footer>p{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -87,4 +89,19 @@ body::-webkit-scrollbar {
     background-color: rgb(134, 138, 126);    
     border-radius: 20px;       
     border: 3px solid rgb(17, 0, 255,47,255);  
+  }
+  p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  section>p{
+    font-size: 107%;
+  }
+
+  section>h1{
+    font-size: 230%;
+  }
+
+  section>h2{
+    font-size: 190%;
   }
