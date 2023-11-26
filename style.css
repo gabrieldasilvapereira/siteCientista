@@ -29,10 +29,15 @@ body{
 
 
 
-h1{
+h1.titulo{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    padding-bottom: 50px;
+    font-size: 3em;
+    
 }
+
+
 
 li>a{
   color: blue;
@@ -146,6 +151,7 @@ body::-webkit-scrollbar {
     border-radius: 20px;       
     border: 3px solid rgb(17, 0, 255,47,255);  
   }
+
   p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -179,18 +185,23 @@ body::-webkit-scrollbar {
   100% {
     color: rgb(23, 188, 218);
 }
+
 }
 
-
+ .saudacao,.horario{
+  position: relative;
+  top: 1em;
+  left: 1em;
+}
 
 
   .relogio{
         width: 50%;
         margin: auto;
-        text-align: center;
+        text-align: ;
         font-size: 150%;
         animation: cores 7s  infinite; 
-        padding-left: 31em;
+padding-right: 45%;
   }
 
   footer{

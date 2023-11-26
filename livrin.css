@@ -162,13 +162,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.relogio{
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  font-size: 150%;
-  animation: cores 7s  infinite; 
+.saudacao,.horario{
+  position: relative;
+  top: 1em;
+  left: 1em;
 }
+
+
+  .relogio{
+        width: 50%;
+        margin: auto;
+        text-align: ;
+        font-size: 150%;
+        animation: cores 7s  infinite; 
+padding-right: 45%;
+  }
 
 footer{
 display: flex;
