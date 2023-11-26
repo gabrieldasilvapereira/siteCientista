@@ -75,7 +75,7 @@ justify-content: space-evenly;
 
 
  nav{
-    background-color: aqua;
+    background-color: rgb(98, 122, 122);
     display: flex;
     align-items: center;
     gap: 2em;

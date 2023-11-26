@@ -5,7 +5,7 @@
 
 
 main{
-    background-color: rgba(255, 255, 255, 0.835);
+    background-color: rgba(255, 255, 255, 0.671);
     width: 1300px;
    margin: auto;
     border-radius: 10px;
@@ -31,11 +31,22 @@ h1{
     text-align: center;
 }
 
+
+.tk{
+  width: 60%;
+ height: auto;
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+
+
 nav{
-    background-color: aqua;
+    background-color: rgba(119, 111, 226, 0.521);
     display: flex;
     align-items: center;
     gap: 2em;
+    
 }
 
 nav>p{
@@ -47,7 +58,7 @@ nav>p{
 }
 
 nav > a:hover{
-    background-color: brown;
+    background-color: rgb(42, 110, 165);
     color: white;
 }
 
@@ -72,8 +83,9 @@ div > img.imagem2{
 
 
 footer>p{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
 }
 
 
