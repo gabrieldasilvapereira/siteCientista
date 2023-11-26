@@ -27,8 +27,11 @@ body{
   background-attachment: fixed;
 }
 
+
+
 h1{
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 li>a{
@@ -56,15 +59,19 @@ a{
 
 
 nav{
-  background-image: linear-gradient(70deg,#1b65d388,#b4bff0a2,#124cb098,#a76f5aa1,#9d9ac693);
-    text-align: center;
+  background-image: linear-gradient(70deg,#1b65d388,#b4bff0a2,#a76f5aa1,#124cb098,#9d9ac693);
+   gap: 15%;
     font-size: 130%;
     border-radius: 3%;
  border-style: outset;
+ display: flex;
+ align-items: center;
+height: 2em;
+padding-left: 1em;
 }
 
 .livros{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 nav>p{
@@ -82,7 +89,7 @@ nav > a:hover{
 
 nav > a{
     text-decoration: none;
-    color: white;
+    color: rgb(7, 7, 7);
 }
 
 @keyframes mover {
