@@ -5,11 +5,11 @@ function carregar() {
     var hora = data.getHours()
     var minutos = data.getMinutes()
     var saudação = window.document.getElementById('saudação')
-
+    var div = document.getElementById('msg')
     //var hora = 2
 
 
-    msg.innerHTML = `<strong>Agora são ${hora} horas e ${minutos} minutos</strong>`
+    div.innerHTML = `<strong>Agora são ${hora} horas e ${minutos} minutos</strong>`
 
     
     if (hora >= 0 && hora < 12) {
@@ -30,3 +30,13 @@ function carregar() {
     }
 
 }
+
+
+function mostrarAlerta() {
+    window.alert("QUANDO SOU PEGO AOS BEIJOS COM A FILHA DO SOGRÃO.");
+}
+
+
+//window.alert('Você está na página principal') 
+
+

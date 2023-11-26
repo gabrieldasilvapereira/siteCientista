@@ -5,7 +5,7 @@
 
 
 main{
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(255, 255, 255, 0.753);
     width: 1300px;
    margin: auto;
     border-radius: 10px;
@@ -31,6 +31,19 @@ h1{
     text-align: center;
 }
 
+li>a{
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(19, 65, 73)
+}
 
 .tk{
   width: 60%;
@@ -41,12 +54,17 @@ h1{
 }
 
 
+
 nav{
-    background-color: rgba(119, 111, 226, 0.521);
-    display: flex;
-    align-items: center;
-    gap: 2em;
-    
+  background-image: linear-gradient(70deg,#1b65d388,#b4bff0a2,#124cb098,#a76f5aa1,#9d9ac693);
+    text-align: center;
+    font-size: 130%;
+    border-radius: 3%;
+ border-style: outset;
+}
+
+.livros{
+    margin-left: 10%;
 }
 
 nav>p{
@@ -58,12 +76,19 @@ nav>p{
 }
 
 nav > a:hover{
-    background-color: rgb(42, 110, 165);
+  background-color: rgb(42, 61, 165);
     color: white;
 }
 
 nav > a{
     text-decoration: none;
+    color: white;
+}
+
+@keyframes mover {
+  100% {
+    transform: scale(1.5);
+}
 }
 
 div > img.imagem1{
@@ -71,6 +96,8 @@ div > img.imagem1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background: url('meme.png') center/cover;
+    animation: mover 3s linear infinite;
 }
 
 div > img.imagem2{
@@ -94,11 +121,12 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: rgb(5, 5, 99);        
+    background-image: linear-gradient(70deg,rgb(172, 106, 134),rgba(188, 106, 235, 0.815),rgb(0, 30, 128)
+    );        
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: rgb(134, 138, 126);    
+    background-color: rgb(235, 240, 225);    
     border-radius: 20px;       
     border: 3px solid rgb(17, 0, 255,47,255);  
   }
@@ -116,4 +144,42 @@ body::-webkit-scrollbar {
 
   section>h2{
     font-size: 190%;
+  }
+
+
+  @keyframes cores {
+    0% {
+      color: rgb(23, 188, 218);
+  }
+  25%{
+    color: #be27cc;
+  }
+  50%{
+    color: #1515d4;
+  }
+  75%{
+    color: #5c0080;
+  }
+  100% {
+    color: rgb(23, 188, 218);
+}
+}
+
+
+  .relogio{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        font-size: 150%;
+        animation: cores 7s  infinite; 
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+  }
+
+  .nomes{
+    font-weight: bold;
+    
   }

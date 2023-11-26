@@ -17,7 +17,7 @@
    
         <nav>
             <a href="index.html">HOME</a>
-            <a href="livros.html">LIVROS</a>
+            <a href="livros.html" class="livros">LIVROS</a>
         </nav>
     
 
@@ -33,14 +33,14 @@
 
 
        <div class="imagem1">
-        <img class="imagem1" src="memeTyson.jpg" alt="Neil deGrasse Tyson">
+        <img class="imagem1" src="meme.png" alt="Neil deGrasse Tyson">
         </div>
 
 <ul>
-<li><a href="#quem foi"   color: #0e4b9b;">1 - Quem foi neil?</a></li>
-<li><a href="#nascimento"  color: #0e4b9b;">2 - Nascimento</a></li>
-<li><a href="#historia"   color: #0e4b9b;">3 - História de neil</a></li>
-<li><a href="#atomos"   color: #0e4b9b;">4 - Lógica dos átomos</a></li>
+<li><a href="#quem foi"   color: #0e4b9b;>1 - Quem foi neil?</a></li>
+<li><a href="#nascimento"  color: #0e4b9b;>2 - Nascimento</a></li>
+<li><a href="#historia"   color: #0e4b9b;>3 - História de neil</a></li>
+<li><a href="#atomos"   color: #0e4b9b; onclick="mostrarAlerta()">4 - Lógica dos átomos</a></li>
 
 
 </ul>
@@ -54,8 +54,8 @@
 
        <div class="imagem2">
 
-        <img class="imagem2" src="tyson1.jpg" alt="Neil deGrasse Tyson">
-        
+        <img class="imagem2" src="tyson1.jpg" alt="Neil deGrasse Tyson" >
+       
 
        </div>
 
@@ -120,34 +120,44 @@
 <br>
 
  <!--Rodapé-->
+
+ 
+
  <footer>
+    <div class="nomes">
     <p >Gabriel</p>
     <p >Lucas Queiroz</p>
     <p >Lucas Cavalcante</p>
-    <p >Vinicius Generoso</p>
+    <p >Vinícius Generoso</p>
+    </div>
+    <section class="relogio">
+
+        <div class="saudacao">
+            <h3 id="saudação">AQUI A SAUDAÇÃO</h3>
+        </div>
+      
+        <div class="horario" id="msg">
+            Aqui vai aparecer a mensagem...
+        </div>
+    
+        
+    </section>
+
 </footer>
 
-<br>
 
 
-<section class="relogio">
 
-    <div class="saudacao">
-        <h3 id="saudação">AQUI A SAUDAÇÃO</h3>
-    </div>
-  
-    <div class="horario" id="msg">
-        Aqui vai aparecer a mensagem...
-    </div>
 
     
-</section>
+
 
 
     </main>
 
     <script src="script.js">
     </script>
+
 
 </body>
 

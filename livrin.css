@@ -1,14 +1,25 @@
-* {
+/* *{
     padding: 0;
     margin: 0;
-}
+}*/
 
 body {
-    background-image: url(https://www.aplateia.com.br/wp-content/uploads/2020/12/cinema-01-2.jpg);
+    background-image: url(inters.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-   
   }
+
+  main{
+    background-color: rgba(255, 255, 255, 0.562);
+    width: 1300px;
+   
+   margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding-left: 5px;
+    padding-bottom: 5px;
+   
+}
 
 h1{
     text-align: center;
@@ -17,13 +28,16 @@ h1{
 
 h2{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 padding: 2em;
+color: red;
+
 } 
 
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
    font-size: 17px;
   }
 
@@ -55,6 +69,8 @@ p{
   flex-wrap: wrap;
  }
 
+
+
  .livroB{
   display: flex;
   flex-direction: row;
@@ -75,12 +91,19 @@ justify-content: space-evenly;
 
 
  nav{
-    background-color: rgb(98, 122, 122);
-    display: flex;
-    align-items: center;
-    gap: 2em;
+  background-image: linear-gradient(70deg,#b04c459a,#fccfa08f,#6820368e,#6778c294,rgba(46, 31, 207, 0.575));
+  text-align: center;
+  font-size: 130%;
+ border-radius: 3%;
+ border-style: outset;
+  
 }
 
+
+
+.livros{
+  margin-left: 10%;
+}
 nav>p{
     background-color: blanchedalmond;
     width: 50px;
@@ -90,26 +113,66 @@ nav>p{
 }
 
 nav > a:hover{
-    background-color: brown;
+    background-color: rgb(42, 61, 165);
     color: white;
-}
+    
+    }
  
 nav > a{
     text-decoration: none;
+    color: white;
 }
 
 
 
 body::-webkit-scrollbar {
-  width: 12px;               
+  width: 11px;               
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(5, 5, 99);        
+  background-image: linear-gradient(70deg,rgb(106, 106, 172),white,rgb(0, 30, 128)
+  );       
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(134, 138, 126);    
+  background-color: rgb(235, 240, 225);    
   border-radius: 20px;       
   border: 3px solid rgb(17, 0, 255,47,255);  
+}
+
+@keyframes cores {
+  0% {
+    color: rgb(192, 182, 41);
+}
+25%{
+  color: #be27cc;
+}
+50%{
+  color: #1515d4;
+}
+75%{
+  color: #5c0080;
+}
+100% {
+  color: rgb(192, 182, 41);
+}
+}
+
+
+.relogio{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 150%;
+  animation: cores 7s  infinite; 
+}
+
+footer{
+display: flex;
+align-items: center;
+}
+
+.nomes{
+font-weight: bold;
+
 }
