@@ -182,12 +182,15 @@ body::-webkit-scrollbar {
 }
 
 
+
+
   .relogio{
         width: 50%;
         margin: auto;
         text-align: center;
         font-size: 150%;
         animation: cores 7s  infinite; 
+        padding-left: 31em;
   }
 
   footer{
