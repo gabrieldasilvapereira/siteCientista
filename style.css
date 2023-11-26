@@ -27,9 +27,14 @@ body{
   background-attachment: fixed;
 }
 
-h1{
+h1.titulo{
     text-align: center;
+    padding-bottom: 50px;
+    font-size: 3em;
+    
 }
+
+
 
 li>a{
   color: blue;
@@ -139,6 +144,7 @@ body::-webkit-scrollbar {
     border-radius: 20px;       
     border: 3px solid rgb(17, 0, 255,47,255);  
   }
+
   p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -172,6 +178,7 @@ body::-webkit-scrollbar {
   100% {
     color: rgb(23, 188, 218);
 }
+
 }
 
 
@@ -181,7 +188,19 @@ body::-webkit-scrollbar {
         text-align: center;
         font-size: 150%;
         animation: cores 7s  infinite; 
+          
   }
+
+  section.relogio{
+    display: flex;
+    
+
+
+  }
+
+
+
+
 
   footer{
     display: flex;
